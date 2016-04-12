@@ -1,0 +1,58 @@
+main.html
+<template name="gameContainer">   
+
+               
+
+                <div id="game-container"></div>
+
+               
+
+</template>
+
+x-x-x-x-x- 
+
+ 
+js
+Template.gameContainer.onRendered(function(){
+
+   
+
+  game = new Phaser.Game(1280, 800, Phaser.CANVAS, 'game-container',
+
+                { preload: preload, create: create, update: update, render: render });
+
+               
+
+});
+
+ 
+
+window.preload = function() {
+
+               
+
+};
+
+ 
+
+window.create = function() {
+
+   
+
+};
+
+ 
+
+window.update = function() {
+
+   
+
+};
+
+ 
+
+window.render = function() {
+
+               
+
+};

@@ -1,0 +1,11 @@
+{
+  "name": "game_01",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "load-grunt-config": "^0.19.1",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
